@@ -18,4 +18,4 @@
 4. Enjoy [your app](http://127.0.0.1:3000) !
 
 # Additional informations
-- You can run `docker ps` to see informations about the running containers. These informations includes the status of the last healthcheck under de "STATUS" section.
+- You can run `docker ps` to see informations about the running containers. These informations includes the last healthcheck status under the "STATUS" section.

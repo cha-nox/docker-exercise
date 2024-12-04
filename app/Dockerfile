@@ -11,7 +11,7 @@ COPY . .
 EXPOSE 3000
 
 # Application's health check
-HEALTHCHECK --interval=1m --timeout=3s \
+HEALTHCHECK --interval=1m --timeout=3s --retries=3 \
     CMD curl -f http://127.0.0.1:3000/ || exit 1
 
 # Defining the running command

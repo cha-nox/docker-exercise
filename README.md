@@ -5,7 +5,7 @@
 1. Clone the repository.
     ```sh
     cd path/to/your/directory
-    git clone https://github.com/your-username/your-repo.git
+    git clone https://github.com/cha-nox/docker-exercise
     ```
 2. Build the Docker image.
     ```sh

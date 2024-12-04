@@ -1,0 +1,7 @@
+services:
+  docker-exercise:
+    image: docker-exercise:latest
+    container_name: docker-exercise
+    ports:
+      - '3000:3000'
+    restart: 'always'
